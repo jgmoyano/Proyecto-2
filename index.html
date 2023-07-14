@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO 2 CRUD</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>ESCALADA VALLE DE LOS CONDORES</h1>
+    </div>
+    <hr>
+    <div class="grid">
+
+        <div class="imagen"><img src="escalando.jpg" alt=""></div>
+
+        <div>Se invita a todos los escaladores de la región a inscribirse en una nueva jornada de escalada y compañerismo a realizarse
+            los días Sabado 15 de Julio y Domingo 16 de Julio en el Valle de los Condores sector "Gran Pared". <br> <br>
+            La salida sera a las 05:00 AM desde BALANCE Climbing <br><br> Deben llevar: <br>- Equipamiento de Escalada
+            <br>- Equipamiento de Supervivencia <br>- Alimentación <br>- Hidratación <br><br>Nos vemos !!
+        </div>
+
+    </div>
+    <hr>
+
+
+    <h2>Inscribete YA!</h2>
+    <form onsubmit="addData(event)">
+        <label>Nombre</label>
+        <input type="text" id="name" placeholder="Ingresa un Nombre"></input>
+        <label>Correo</label>
+        <input type="text" id="email" placeholder="Ingresa un Correo"></input>
+        <div>
+            <input type="submit" value="Agregar" id="add-btn">
+            <input type="submit" value="Editar" id="edit-btn" style="display: none;">
+        </div>
+    </form>
+    <hr>
+    <ul></ul>
+    <script src="script.js"></script>
+</body>
+
+</html>

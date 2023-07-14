@@ -1,0 +1,51 @@
+body {
+    background:
+    linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(143,16,16,.5)),
+    url(fondo.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.titulo{
+    display: flex;
+    
+    justify-content: center;
+    color: aliceblue;
+}
+
+.grid{
+    display: grid;
+    margin: 20px;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+}
+
+.imagen{
+    overflow: hidden;
+    
+}
+
+.imagen img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+h2{
+    color: aliceblue;
+}
+
+form{
+    color: aliceblue;
+}
+
+input {
+    background-color: rgba(78, 13, 13, 0.501);
+}
+
+button {
+    color: aliceblue;
+    background-color: rgba(78, 13, 13, 0.501);
+}
