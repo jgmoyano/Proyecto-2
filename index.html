@@ -31,18 +31,38 @@
 
 
     <h2>Inscribete YA!</h2>
-    <form onsubmit="addData(event)">
-        <label>Nombre</label>
-        <input type="text" id="name" placeholder="Ingresa un Nombre"></input>
+    <form onsubmit="addData(event)" class="formulario">
+        <label>Nombres</label>
+        <input type="text" id="nombres" placeholder="Ingresa Nombres"></input>
+
+        <label>Apellidos</label>
+        <input type="text" id="apellidos" placeholder="Ingresa apellidos"></input>
+
+        <label>Edad</label>
+        <input type="text" id="edad" placeholder="Ingresa tu edad"></input>
+
         <label>Correo</label>
         <input type="text" id="email" placeholder="Ingresa un Correo"></input>
+
         <div>
-            <input type="submit" value="Agregar" id="add-btn">
-            <input type="submit" value="Editar" id="edit-btn" style="display: none;">
+            <button type="submit" id="add-btn">Agregar</button>
+            <button type="submit" id="edit-btn" style="display: none;">Guardar</button>
         </div>
     </form>
     <hr>
-    <ul></ul>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Edad</th>
+                <th>Email</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
     <script src="script.js"></script>
 </body>
 
