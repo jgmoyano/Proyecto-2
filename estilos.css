@@ -109,13 +109,10 @@ table th {
 @media (max-width:550px) {
 
     .titulo br {
-
         display: inherit;
-
     }
 
     .titulo {
         text-align: center;
     }
-
 }
