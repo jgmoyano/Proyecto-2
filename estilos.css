@@ -9,9 +9,12 @@ body {
 
 .titulo {
     display: flex;
-
     justify-content: center;
     color: aliceblue;
+}
+
+.titulo br {
+    display: none;
 }
 
 .grid {
@@ -101,4 +104,18 @@ table td {
 table th {
     background-color: rgba(69, 111, 143, 0.541);
     width: 20%;
+}
+
+@media (max-width:550px) {
+
+    .titulo br {
+
+        display: inherit;
+
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
 }
