@@ -20,7 +20,8 @@
 
         <div class="imagen"><img src="escalando.jpg" alt=""></div>
 
-        <div>Se invita a todos los escaladores de la región a inscribirse en una nueva jornada de escalada y compañerismo a realizarse
+        <div>Se invita a todos los escaladores de la región a inscribirse en una nueva jornada de escalada y
+            compañerismo a realizarse
             los días Sabado 15 de Julio y Domingo 16 de Julio en el Valle de los Condores sector "Gran Pared". <br> <br>
             La salida sera a las 05:00 AM desde BALANCE Climbing <br><br> Deben llevar: <br>- Equipamiento de Escalada
             <br>- Equipamiento de Supervivencia <br>- Alimentación <br>- Hidratación <br><br>Nos vemos !!
@@ -28,27 +29,30 @@
 
     </div>
     <hr>
+    <div class="main">
+        <div class="main1">
+            <h2>Inscribete YA!</h2>
+            <form onsubmit="addData(event)" class="formulario">
+                <label>Nombres</label>
+                <input type="text" id="nombres" placeholder="Ingresa Nombres"></input>
 
+                <label>Apellidos</label>
+                <input type="text" id="apellidos" placeholder="Ingresa apellidos"></input>
 
-    <h2>Inscribete YA!</h2>
-    <form onsubmit="addData(event)" class="formulario">
-        <label>Nombres</label>
-        <input type="text" id="nombres" placeholder="Ingresa Nombres"></input>
+                <label>Edad</label>
+                <input type="text" id="edad" placeholder="Ingresa tu edad"></input>
 
-        <label>Apellidos</label>
-        <input type="text" id="apellidos" placeholder="Ingresa apellidos"></input>
+                <label>Correo</label>
+                <input type="text" id="email" placeholder="Ingresa un Correo"></input>
 
-        <label>Edad</label>
-        <input type="text" id="edad" placeholder="Ingresa tu edad"></input>
-
-        <label>Correo</label>
-        <input type="text" id="email" placeholder="Ingresa un Correo"></input>
-
-        <div>
-            <button type="submit" id="add-btn">Agregar</button>
-            <button type="submit" id="edit-btn" style="display: none;">Guardar</button>
+                <div>
+                    <button type="submit" id="add-btn">Agregar</button>
+                    <button type="submit" id="edit-btn" style="display: none;">Guardar</button>
+                </div>
+            </form>
         </div>
-    </form>
+        <div class="main2"><img src="escalador.png" alt=""></div>
+    </div>
     <hr>
     <table>
         <thead>
