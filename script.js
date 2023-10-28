@@ -99,6 +99,7 @@ function editData(index) {
 }
 
 function deleteData(index) {
+  
   const usersList = getUserList();
   
   usersList.splice(index, 1);
